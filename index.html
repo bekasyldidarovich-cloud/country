@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    body {
+      padding: 30px;
+      background-color: rgba(225, 225, 225, 0.999);
+    }
+    .header {
+      display: flex;
+      align-items: center;
+      gap: 1000px;
+      background-color: white;
+      width: 1500px;
+      height: 100px;
+    }
+    .btn {
+      display: flex;
+      align-items: center;
+      gap: 700px;
+      margin-top: 50px;
+    }
+    .country {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      gap: 40px;
+      margin-top: 60px;
+    }
+    .box1 {
+      grid-column: 1/2;
+      grid-row: 1/2;
+    }
+    .box2 {
+      grid-column: 2/3;
+      grid-row: 1/2;
+    }
+    .box3 {
+      grid-column: 3/4;
+      grid-row: 1/2;
+    }
+    .box4 {
+      grid-column: 4/5;
+      grid-row: 1/2;
+    }
+    .box5 {
+      grid-column: 1/2;
+      grid-row: 2/3;
+    }
+    .box6 {
+      grid-column: 2/3;
+      grid-row: 2/3;
+    }
+    .box7 {
+      grid-column: 3/4;
+      grid-row: 2/3;
+    }
+    .box8 {
+      grid-column: 4/5;
+      grid-row: 2/3;
+    }
+  </style>
+  <body>
+    <div class="header">
+      <h1>Where in the world?</h1>
+      <h4>Dark Mode</h4>
+    </div>
+    <div class="container">
+      <div class="btn">
+        <button
+          style="
+            width: 400px;
+            height: 50px;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            background-color: rgb(255, 255, 255);
+            border-radius: 5px;
+          "
+        >
+          Search for a country
+        </button>
+        <button
+          style="width: 300px; height: 50px; display: flex; align-items: center"
+        >
+          Filter by Region
+        </button>
+      </div>
+    </div>
+    <div class="country">
+      <div class="box1">
+        <img src="Снимок экрана 2026-01-13 в 22.01.08.png" alt="" />
+      </div>
+      <div class="box2">
+        <img src="Снимок экрана 2026-01-13 в 22.02.21.png" alt="" />
+      </div>
+      <div class="box3">
+        <img
+          style="width: 290px"
+          src="Снимок экрана 2026-01-13 в 22.03.35.png"
+          alt=""
+        />
+      </div>
+      <div class="box4">
+        <img src="Снимок экрана 2026-01-13 в 22.04.24.png" alt="" />
+      </div>
+      <div class="box5">
+        <img
+          style="width: 290px"
+          src="Снимок экрана 2026-01-13 в 22.05.38.png"
+          alt=""
+        />
+      </div>
+      <div class="box6">
+        <img
+          style="width: 290px"
+          src="Снимок экрана 2026-01-13 в 22.06.11.png"
+          alt=""
+        />
+      </div>
+      <div class="box7">
+        <img
+          style="width: 290px"
+          src="Снимок экрана 2026-01-13 в 22.06.36.png"
+          alt=""
+        />
+      </div>
+      <div class="box8">
+        <img
+          style="width: 290px"
+          src="Снимок экрана 2026-01-13 в 22.07.00.png"
+          alt=""
+        />
+      </div>
+    </div>
+  </body>
+</html>
